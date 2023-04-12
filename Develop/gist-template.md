@@ -52,7 +52,8 @@ Quantifier	Description
 
 ### OR Operator
 
-| This element is used to separeted groups. If the character on the left side is matched, then the right side's character is ignored. \ It is used to escape a special character after this sign in a string. ( ) Captures values in the group using parentheses. [ ] Matches anything within the brackets. [0-9] Matches any number values between 0 and 9. [0 9] Matches only zero or 9, or any other number that you put inside.
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+The "or" operator within a regular expression is defined using the | element. The or operator indicates that it could either of the components that we are separating with the |. For our hex value regular expression we have ([a-f0-9]{6}``|``[a-f0-9]{3}). Note the or operator separating these 2 components. This means that our hex value could either be 6 characters [a-f0-9]{6} or 3 characters [a-f0-9]{3}.
 
 ### Character Classes
 
