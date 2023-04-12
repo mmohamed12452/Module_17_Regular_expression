@@ -93,6 +93,17 @@ There are three groups in the regex code above.
 
 ### Bracket Expressions
 
+ Bracket expression is a list of characters enclose by []. Much like the grouping and capturing section. Below is an example:
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+).([a-z\.]{2,6})$/
+We have three brackets in the above example:
+
+Bracket Expression 1: [a-z0-9_\.-] - includes case sensitive characters from a-z, numbers from 0-9 an underscore, periods and hyphens.
+
+Bracket Expression 2: [\da-z\.-] - includes all digits, case sensitive characters from a-z, periods and hyphens
+
+Bracket Expression 3: [a-z\.] - includes case sensitive characters from a-z and periods.
+
 ### Greedy and Lazy Match
 
 ### Boundaries
