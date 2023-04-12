@@ -57,6 +57,9 @@ The "or" operator within a regular expression is defined using the | element. Th
 
 ### Character Classes
 
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+Character classes are components within our regular expression that tells us what type of characters to expect. In our example our character classes are confined within brackets []. For our example we have 2 character classes: [a-f0-9] and [a-f0-9] which searches for the same values. We will be breaking down what the characters are searching within these character classes. a-f searches for letters a-f and 0-9 searches for digits 0-9.
+
 ### Flags
 
 ### Grouping and Capturing
