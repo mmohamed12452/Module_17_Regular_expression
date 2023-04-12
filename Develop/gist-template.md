@@ -130,6 +130,14 @@ Example:
 
 ### Back-references
 
+Back-references What does a back-reference look like? It is typically a \ followed by single-digit. Back-reference is a command, which refers to something that already happened or a previous part of a matched regular expression. You could make a better preference by name or number; basically, what you are doing is you are referencing a named group, and you would have a bag/and a K then the name of that group, for example.
+
+### Look-ahead and Look-behind
+
+Look ahead and look behind allows how matches get handled when using regular expressions.Look ahead and look behinds, also known as look around assertions, are similar to a start and end of the line or anchors. However, look around can match characters, and then they return a result of either a match or no match.
+
+## REFERENCES
+
 - https://javascript.info/regexp-introduction
 - https://www.javascripttutorial.net/regular-expression-anchors/
 - https://codescracker.com/js/js-regex-quantifiers.htm
@@ -138,9 +146,8 @@ Example:
 - https://www.w3docs.com/learn-javascript/greedy-and-lazy-quantifiers.html 
 - https://javascript.info/regexp-greedy-and-lazy
 - https://www.javascripttutorial.net/regular-expression-word-boundaries/
+- https://javascript.info/regexp-lookahead-lookbehind
 
-
-### Look-ahead and Look-behind
 
 ## Author
 
