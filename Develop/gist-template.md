@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Module 17: Javascript Regular Expressions(Regex)
 
-Introductory paragraph (replace this with your text)
+As a web development student, I have developed this tutorial, where you will learn about Regex abbreviation of Regular Expression and how you can use it to identify characters in text.
 
 ## Summary
 
