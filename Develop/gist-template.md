@@ -12,7 +12,6 @@ as an example of how to breakdown some Regular Expression examples and how to us
 
 ## Table of Contents
 
-- [Regex Components](#regex-components)
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
@@ -110,6 +109,24 @@ Bracket Expression 3: [a-z\.] - includes case sensitive characters from a-z and 
 A greedy match tries to match an element as many times as possible. Whereas, a lazy match tries to match an element as few times as possible. In our example we have ? which signifies lazy quantifier. This is referred to a lazy quantifier because it causes the regular expression engine to match as few occurances as possible. We can simply turn this lazy match into a greedy one by adding a ?.
 
 ### Boundaries
+
+\b Matches on a word boundary, meaning one side is a word character (usually a letter, digit or underscore) and the other side is not a word character (string or space character).
+
+Example:
+/^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/
+
+/^ Matches: This indicates the beginning of the string.
+
+([a-z0-9_.-]+) Matches: This is a capturing group that can matches one or more lowercase letters, digits, underscores, dots, or hyphens.
+
+@ Matches: This matches the "@" symbol that separates the username and domain parts of an email address.
+
+([\da-z.-]+) Matches: This is a second group in the same string of our email that matches one or more digits, lowercase letters, dots, or hyphens.
+
+. Matches: This corresponds to a literal dot character. The backslash is used to escape the dot because it has a special meaning in regex.
+
+([a-z.]{2,6}) Matches: This is the third and final group of our email that matches between 2 and 6 lowercase letters or dots. This is used to match the top-level domain (TLDs) of the email address, such as ".com" or ".org". Domain extensions are used to categorize websites by type, location or business model.
+
 
 ### Back-references
 
