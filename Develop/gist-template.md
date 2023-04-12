@@ -81,6 +81,16 @@ y
 
 ### Grouping and Capturing
 
+Regular expressions can be grouped by placing them inside parentheses () to apply quantifiers or restrict alternation to that part of the regex;
+
+For example:
+/^([a-z0-9_\.-]+)@([\da-z\.-]+).([a-z\.]{2,6})$/ 
+There are three groups in the regex code above.
+
+ Group 1: [a-z0-9_\.-] is used for the username of the email account.
+ Group 2: [\da-z\.-] is used to capture the domain name/email service. 
+ Group 3: [a-z\.] is used to capture the domain extension.
+
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
