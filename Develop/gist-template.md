@@ -46,4 +46,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Mohamed but I prefer being called by my nickname Mo Mo. I am a software engineering student currently enrolled in the University of Minnesota coding bootcamp. 
+
+GITHUB LINK: https://github.com/mmohamed12452
