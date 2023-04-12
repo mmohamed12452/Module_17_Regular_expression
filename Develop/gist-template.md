@@ -36,7 +36,23 @@ Anchors have special meaning in regular expressions. They do not match any chara
 
 ### Quantifiers
 
+Quantifiers are used to communicate how many characters are expected. Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found. By default, quantifiers are greedy, and will match as many characters as possible. If the ",+,?,{}" characters are found within regular expressions, they are considered quantifiers. The ? indicates the expression to match 0 or 1 time. As mentioned in the summary above because there are 2 types of formats we'll use the or operator to distinguish which format we are using. In our Hex Value regular expression we have {6} (Hex Triplet Format) and {3} (Shorthand Hex Format), this indicates that the length of the component preceding these quantifiers should be 6 for {6} and 3 for {3}.
+
+Quantifiers summary
+
+The following lists the quantifiers:
+
+Quantifier	Description
+*	Match zero or more times.
++	Match one or more times.
+?	Match zero or one time.
+{ n }	Match exactly n times.
+{ n ,}	Match at least n times.
+{ n , m }	Match from n to m times.
+
 ### OR Operator
+
+| This element is used to separeted groups. If the character on the left side is matched, then the right side's character is ignored. \ It is used to escape a special character after this sign in a string. ( ) Captures values in the group using parentheses. [ ] Matches anything within the brackets. [0-9] Matches any number values between 0 and 9. [0 9] Matches only zero or 9, or any other number that you put inside.
 
 ### Character Classes
 
