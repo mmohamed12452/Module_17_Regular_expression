@@ -130,6 +130,16 @@ Example:
 
 ### Back-references
 
+- https://javascript.info/regexp-introduction
+- https://www.javascripttutorial.net/regular-expression-anchors/
+- https://codescracker.com/js/js-regex-quantifiers.htm
+- https://plainenglish.io/blog/regular-expressions-brackets-f2d6f69ffe13
+- https://www.javascripttutorial.net/javascript-regex-greedy/
+- https://www.w3docs.com/learn-javascript/greedy-and-lazy-quantifiers.html 
+- https://javascript.info/regexp-greedy-and-lazy
+- https://www.javascripttutorial.net/regular-expression-word-boundaries/
+
+
 ### Look-ahead and Look-behind
 
 ## Author
