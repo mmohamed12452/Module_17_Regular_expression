@@ -6,5 +6,5 @@ Regex or Regular Expressions are patterns used to identify combinations or chara
 
 GITHUB LINK: https://github.com/mmohamed12452/Module_17_Regular_expression
 
-GITHUB GIST LINK: 
+GITHUB GIST LINK: https://github.com/mmohamed12452/Module_17_Regular_expression/blob/main/Develop/gist-template.md
 
