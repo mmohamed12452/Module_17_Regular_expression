@@ -1,10 +1,14 @@
 # Module 17: Javascript Regular Expressions(Regex)
 
-As a web development student, I have developed this tutorial, where you will learn about Regex abbreviation of Regular Expression and how you can use it to identify characters in text.
+As a web development student, I have developed this tutorial, where you will learn about the Regex abbreviation of Regular Expression and how you can use it to identify characters in a text.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex or Regular Expressions are patterns used to identify combinations or characters in a string, they can be used to validate text based on complex criteria, and they can also be used to replace patterns of the character in a string.
+
+In this tutorial we are going to use this Email:
+         /^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/ 
+as an example of how to breakdown some Regular Expression examples and how to use it.
 
 ## Table of Contents
 
